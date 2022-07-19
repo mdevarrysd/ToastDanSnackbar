@@ -1,8 +1,8 @@
 # A beautifull Motion Toast And Snackbar
 
-// ![](http://i.imgur.com/y8g506n.png?1)
+![](https://www.karier.mu/blog/wp-content/uploads/2021/12/programmin.jpg)
 
-# Reyhan M Akbar
+# Muhammad devin arrasyid
 Hello This is my project
 
 ## This is the UI 
@@ -13,8 +13,8 @@ Hello This is my project
     
   </tr>
   <tr>
-    <td><img src = "https://i.postimg.cc/sg3v8hfL/Screenshot-1658129136.png"/></td>
-   <td><img src = "https://i.postimg.cc/5tckbbGD/Screenshot-1658130036.png"/></td>
+    <td><img src = "https://i.postimg.cc/XY5mC7Mm/Screenshot-1658130812.png"/></td>
+   <td><img src = "https://i.postimg.cc/s29LT6gJ/Screenshot-1658130820.png"/></td>
   </tr>
 </table>
 
@@ -47,12 +47,14 @@ Add dependency in your app module
 
 ```
 
-### Error Toast
+### Succes Toast
 ```
- MotionToast.createColorToast(this,"Profile Update Failed!",
-                    MotionToastStyle.ERROR,
-                    MotionToast.GRAVITY_BOTTOM,
-                    MotionToast.LONG_DURATION,
-                    ResourcesCompat.getFont(this,R.font.helvetica_regular))  
+MotionToast.createToast(this,
+                "Hurray success 😍",
+                "Upload Completed successfully!",
+                MotionToastStyle.SUCCESS,
+                MotionToast.GRAVITY_BOTTOM,
+                MotionToast.LONG_DURATION,
+                ResourcesCompat.getFont(this,R.font.helvetica_regular))  
 ```
 
